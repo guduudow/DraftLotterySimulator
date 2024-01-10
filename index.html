@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draft Lottery Simulator</title>
+    <script src="js/petproject.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="logo">
+      <!--Header-->
+      <div class="wording">
+        <img src="img/nhlwordmark.svg" id="nhl" />
+        <em>Draft Lottery Simulator</em>
+      </div>
+    </nav>
+    <!--main section-->
+    <div class="main-page">
+      <p>
+        Welcome to the NHL&reg; Draft Lottery Simulator! This program will
+        simulate the league's draft lottery and you can see what team could end
+        up getting this year's first overall pick.
+      </p>
+      <div class="record">
+        <button id="simulation">Simulate Lottery</button>
+        <button id="goback">Go Back</button>
+        <!--this button is hidden-->
+      </div>
+      <div id="congrats"></div>
+      <div id="simulating"></div>
+      <!--this is hidden-->
+      <div class="team-table">
+        <table id="standings">
+          <!--shows the standings for all 32 teams-->
+          <tr>
+            <th>Team</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Points</th>
+          </tr>
+        </table>
+      </div>
+      <div class="lottery-table">
+        <table id="lottery_standings">
+          <!--the lottery table, hidden until button is pressed-->
+          <tr>
+            <td>Team</td>
+            <td>Wins</td>
+            <td>Losses</td>
+            <td>Points</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>&copy; 2023 Ederes Gure. All Rights Reserved.</footer>
+  </body>
+</html>
