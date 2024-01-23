@@ -1,4 +1,4 @@
-# DraftLotterySimulator
+# Draft Lottery Simulator
 This is a completely randomized lottery simulator for the NHL Draft. All team records are randomized, along with the lottery simulation. Teams with the worst records have the best chances at the first overall pick.
 
 # How does all it work?
@@ -10,3 +10,5 @@ All 32 NHL® teams are placed into a list. The simulator then simulates an entir
 ## The Lottery
 
 The worst 10 teams are selected into a pool where they can compete for the chance to get the first overall pick. The lottery is adjusted to give better odds to teams with worse records. By clicking the "simulate lottery" button, the lottery will of course, be simulated and the final standings will be given.
+
+<img src="/img/ezgif-7-11b633b88c.gif">
